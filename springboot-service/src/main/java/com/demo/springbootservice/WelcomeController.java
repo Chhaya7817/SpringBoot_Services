@@ -38,9 +38,14 @@ public class WelcomeController {
     public String patchApi() {
         return "this is patch method api";
     }
+//    to run on windows use this cmnd or postman
+//    Invoke-WebRequest -Uri http://localhost:8080 -Method PATCH
+
 
     @DeleteMapping
     public String deleteApi() {
         return "this is delete method api";
     }
+
+
 }
